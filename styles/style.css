@@ -1,0 +1,36 @@
+html {     /* anything in here applies to everything */
+    background-color:rgb(97, 151, 97); /* rgb(50, 50, 236) for blue */
+}
+body {
+    background-color:lavenderblush; /* #db9915 for orange*/
+    width: 75vw;
+    /* text-align:center centers the font --> 600 px */
+    margin: 0 auto;
+    border: 5px solid green;
+    padding: 0px 20px 20px 20px;
+
+}
+
+img {
+    /* display: none; */
+    /* still there just not visible */
+    display: block;
+    width: 40vw;
+    margin: 20px auto; /* auto is auto */
+    padding:20px 20px 20px 20px;
+    background-color: green;
+}
+
+h1 {
+    margin: 20px 0;
+    border: 1px dotted purple;
+    font-size:80px;
+    text-align:center;
+    /* this font family overrides the font family in html */
+}
+p, li {
+    /* display: inline; makes smoosh */
+    font-size: 24 px;
+    line-height:2;
+    letter-spacing:1px;
+}
