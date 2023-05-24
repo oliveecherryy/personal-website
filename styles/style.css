@@ -1,13 +1,15 @@
 html {     /* anything in here applies to everything */
-    background-color:rgb(97, 151, 97); /* rgb(50, 50, 236) for blue */
+    background-color: navy; /* rgb(50, 50, 236) for blue */
 }
 body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
     background-color:lavenderblush; /* #db9915 for orange*/
-    width: 75vw;
+    width: 90vw;
     /* text-align:center centers the font --> 600 px */
-    margin: 0 auto;
+    margin: 10px 10px 10px 10px;
     border: 5px solid green;
-    padding: 0px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
 
 }
 
@@ -15,13 +17,15 @@ img {
     /* display: none; */
     /* still there just not visible */
     display: block;
-    width: 40vw;
+    width: 20vw;
+    height: 20vw;
     margin: 20px auto; /* auto is auto */
     padding:20px 20px 20px 20px;
     background-color: green;
 }
 
 h1 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 20px 0;
     border: 1px dotted purple;
     font-size:80px;
@@ -29,6 +33,8 @@ h1 {
     /* this font family overrides the font family in html */
 }
 p, li {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
     /* display: inline; makes smoosh */
     font-size: 24 px;
     line-height:2;
